@@ -26,12 +26,13 @@ body .container header h3 {
   color: hsl(241, 100%, 89%);
   text-transform: capitalize;
   font-weight: 700;
+  margin-top: 10px;
 }
 body .container header .circle {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin: 25px auto;
+  margin: 30px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +47,7 @@ body .container header .circle h1 span {
   font-size: 16px;
   font-weight: 700;
   color: hsl(241, 100%, 89%);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 body .container header h4 {
   text-transform: capitalize;
@@ -61,16 +62,16 @@ body .container header p {
   color: hsl(241, 100%, 89%);
   margin-bottom: 10px;
   letter-spacing: 0.5px;
-  opacity: 0.8;
 }
 body .container main {
-  padding: 0 20px;
+  padding: 0 10px;
+  margin-top: 10px;
 }
 body .container main h3 {
   color: hsl(224, 30%, 27%);
   font-weight: 800;
   font-size: 18px;
-  margin: 25px 0;
+  margin: 20px 0;
   letter-spacing: 0.5px;
 }
 body .container main .content .box {
@@ -123,7 +124,7 @@ body .container main .content .box4 p {
   color: hsl(234, 85%, 45%);
 }
 body .container footer {
-  padding: 0 20px;
+  padding: 10px;
 }
 body .container footer button {
   all: unset;
@@ -132,10 +133,12 @@ body .container footer button {
   background-color: hsl(224, 30%, 27%);
   height: 60px;
   border-radius: 50px;
-  margin-bottom: 20px;
-  margin-top: 10px;
   color: hsl(0, 0%, 100%);
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.5px;
+}
+body .th {
+  position: relative;
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
