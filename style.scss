@@ -28,7 +28,7 @@ body {
       background-image: linear-gradient($light-blue-back, $dark-blue-back);
       text-align: center;
       color: $White;
-      padding: 20px ;
+      padding: 30px;
       border-radius: 0 0 30px 30px;
       h3 {
         font-size: 18px;
@@ -67,7 +67,7 @@ body {
         margin-bottom: 10px;
       }
       p {
-        width: 80%;
+        width: 82%;
         margin: auto;
         // font-size: 18px;
         font-weight: 500;
@@ -89,7 +89,8 @@ body {
       }
       .content {
         .box {
-          padding: 20px;
+          padding: 0 20px;
+          height: 60px;
           border-radius: 10px;
           display: flex;
           justify-content: space-between;
@@ -114,49 +115,49 @@ body {
             }
           }
         }
-        .box1{
-            background-color: rgba($color: $red, $alpha: .1);
-            p{
-                color: $red;
-            }
+        .box1 {
+          background-color: rgba($color: $red, $alpha: 0.1);
+          p {
+            color: $red;
+          }
         }
         .box2 {
           background-color: rgba($color: $yellow, $alpha: 0.1);
-          p{
+          p {
             color: $yellow;
           }
         }
-        .box3{
-            background-color: rgba($color: $teal, $alpha: .1);
-            p{
-                color: $teal;
-            }
+        .box3 {
+          background-color: rgba($color: $teal, $alpha: 0.1);
+          p {
+            color: $teal;
+          }
         }
-        .box4{
-            background-color: rgba($color: $blue, $alpha: .1);
-            p{
-                color: $blue;
-            }
+        .box4 {
+          background-color: rgba($color: $blue, $alpha: 0.1);
+          p {
+            color: $blue;
+          }
         }
       }
     }
-    footer{
-        width: 85%;
-        margin: auto;
-        button{
-            all: unset;
-            width: 100%;
-            text-align: center;
-            background-color: $dark-blue-text;
-            padding: 20px 0;
-            border-radius: 50px;
-            margin-bottom: 20px;
-            margin-top: 10px;
-            color: $White;
-            font-size: 18px;
-            font-weight: 800;
-            letter-spacing: 0.5px;
-        }
+    footer {
+      width: 85%;
+      margin: auto;
+      button {
+        all: unset;
+        width: 100%;
+        text-align: center;
+        background-color: $dark-blue-text;
+        height: 60px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        color: $White;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
     }
   }
 }

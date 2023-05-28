@@ -18,7 +18,7 @@ body .container header {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   text-align: center;
   color: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 30px;
   border-radius: 0 0 30px 30px;
 }
 body .container header h3 {
@@ -55,7 +55,7 @@ body .container header h4 {
   margin-bottom: 10px;
 }
 body .container header p {
-  width: 80%;
+  width: 82%;
   margin: auto;
   font-weight: 500;
   color: hsl(241, 100%, 89%);
@@ -75,7 +75,8 @@ body .container main h3 {
   letter-spacing: 0.5px;
 }
 body .container main .content .box {
-  padding: 20px;
+  padding: 0 20px;
+  height: 60px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -133,7 +134,7 @@ body .container footer button {
   width: 100%;
   text-align: center;
   background-color: hsl(224, 30%, 27%);
-  padding: 20px 0;
+  height: 60px;
   border-radius: 50px;
   margin-bottom: 20px;
   margin-top: 10px;
