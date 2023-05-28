@@ -18,7 +18,7 @@ body .container header {
   background-image: linear-gradient(200deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   text-align: center;
   color: hsl(0, 0%, 100%);
-  padding: 40px 0;
+  padding: 30px 0;
   border-radius: 0 0 30px 30px;
 }
 body .container header h3 {
@@ -58,7 +58,7 @@ body .container header h4 {
 body .container header p {
   width: 70%;
   margin: auto;
-  font-weight: 700;
+  font-weight: 500;
   color: hsl(241, 100%, 89%);
   margin-bottom: 10px;
   letter-spacing: 0.5px;
@@ -71,7 +71,7 @@ body .container main h3 {
   color: hsl(224, 30%, 27%);
   font-weight: 800;
   font-size: 18px;
-  margin: 20px 0;
+  margin: 25px 0;
   letter-spacing: 0.5px;
 }
 body .container main .content .box {
@@ -140,5 +140,4 @@ body .container footer button {
 }
 body .th {
   position: relative;
-  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
