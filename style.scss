@@ -28,13 +28,13 @@ body {
       background-image: linear-gradient($light-blue-back, $dark-blue-back);
       text-align: center;
       color: $White;
-      padding: 20px 0;
+      padding: 20px ;
       border-radius: 0 0 30px 30px;
       h3 {
         font-size: 18px;
         color: $light-blue-text;
         text-transform: capitalize;
-        font-weight: 800;
+        font-weight: 700;
       }
       .circle {
         width: 150px;
@@ -62,15 +62,15 @@ body {
       }
       h4 {
         text-transform: capitalize;
-        font-size: 28px;
-        font-weight: 800;
+        font-size: 25px;
+        font-weight: 700;
         margin-bottom: 10px;
       }
       p {
         width: 80%;
         margin: auto;
-        font-size: 18px;
-        font-weight: 700;
+        // font-size: 18px;
+        font-weight: 500;
         color: $light-blue-text;
         margin-bottom: 10px;
         letter-spacing: 0.5px;
