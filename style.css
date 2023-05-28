@@ -18,7 +18,7 @@ body .container header {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   text-align: center;
   color: hsl(0, 0%, 100%);
-  padding: 30px;
+  padding: 35px 0;
   border-radius: 0 0 30px 30px;
 }
 body .container header h3 {
@@ -55,7 +55,7 @@ body .container header h4 {
   margin-bottom: 10px;
 }
 body .container header p {
-  width: 82%;
+  width: 70%;
   margin: auto;
   font-weight: 500;
   color: hsl(241, 100%, 89%);
@@ -64,13 +64,12 @@ body .container header p {
   opacity: 0.8;
 }
 body .container main {
-  width: 85%;
-  margin: auto;
+  padding: 0 20px;
 }
 body .container main h3 {
   color: hsl(224, 30%, 27%);
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px 0;
   letter-spacing: 0.5px;
 }
@@ -89,13 +88,11 @@ body .container main .content .box div {
   gap: 15px;
 }
 body .container main .content .box div p {
-  font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.5px;
 }
 body .container main .content .box .ratio {
   color: hsl(224, 30%, 27%);
-  font-size: 18px;
   font-weight: 800;
 }
 body .container main .content .box .ratio span {
@@ -126,8 +123,7 @@ body .container main .content .box4 p {
   color: hsl(234, 85%, 45%);
 }
 body .container footer {
-  width: 85%;
-  margin: auto;
+  padding: 0 20px;
 }
 body .container footer button {
   all: unset;

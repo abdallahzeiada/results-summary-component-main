@@ -28,7 +28,7 @@ body {
       background-image: linear-gradient($light-blue-back, $dark-blue-back);
       text-align: center;
       color: $White;
-      padding: 30px;
+      padding: 35px 0;
       border-radius: 0 0 30px 30px;
       h3 {
         font-size: 18px;
@@ -67,9 +67,8 @@ body {
         margin-bottom: 10px;
       }
       p {
-        width: 82%;
+        width: 70%;
         margin: auto;
-        // font-size: 18px;
         font-weight: 500;
         color: $light-blue-text;
         margin-bottom: 10px;
@@ -78,12 +77,11 @@ body {
       }
     }
     main {
-      width: 85%;
-      margin: auto;
+      padding: 0 20px;
       h3 {
         color: $dark-blue-text;
         font-weight: 800;
-        font-size: 20px;
+        font-size: 18px;
         margin: 20px 0;
         letter-spacing: 0.5px;
       }
@@ -101,14 +99,12 @@ body {
             align-items: center;
             gap: 15px;
             p {
-              font-size: 18px;
               font-weight: 800;
               letter-spacing: 0.5px;
             }
           }
           .ratio {
             color: $dark-blue-text;
-            font-size: 18px;
             font-weight: 800;
             span {
               opacity: 0.5;
@@ -142,8 +138,7 @@ body {
       }
     }
     footer {
-      width: 85%;
-      margin: auto;
+      padding: 0 20px;
       button {
         all: unset;
         width: 100%;
