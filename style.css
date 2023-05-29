@@ -59,7 +59,6 @@ body .container header p {
   margin: auto;
   font-weight: 500;
   color: hsl(241, 100%, 89%);
-  letter-spacing: 0.5px;
   margin-top: 10px;
 }
 body .container main {
@@ -69,7 +68,6 @@ body .container main h3 {
   color: hsl(224, 30%, 27%);
   font-weight: 800;
   font-size: 18px;
-  letter-spacing: 0.5px;
   margin-top: 20px;
 }
 body .container main ul {
@@ -85,7 +83,7 @@ body .container main ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 58px;
 }
 body .container main ul li div {
   display: flex;
@@ -94,7 +92,6 @@ body .container main ul li div {
 }
 body .container main ul li div p {
   font-weight: 800;
-  letter-spacing: 0.5px;
 }
 body .container main ul li .ratio {
   color: hsl(224, 30%, 27%);
@@ -140,10 +137,63 @@ body .container main ul button {
   color: hsl(0, 0%, 100%);
   font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.5px;
 }
-body .th {
-  position: relative;
-  top: 18px;
-  opacity: 0.5;
+
+@media (min-width: 400px) {
+  body .container {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  body .container header {
+    border-radius: 30px;
+    width: 50%;
+    padding: 30px;
+  }
+  body .container header h3 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  body .container header .circle {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+  }
+  body .container header .circle h1 {
+    font-size: 75px;
+    transform: translateY(5px);
+  }
+  body .container header .circle h1 span {
+    font-size: 18px;
+    transform: translateY(-10px);
+  }
+  body .container header h4 {
+    font-size: 2rem;
+  }
+  body .container header p {
+    width: 85%;
+    font-size: 18px;
+    transform: translateY(-5px);
+  }
+  body .container main {
+    width: 50%;
+  }
+  body .container main h3 {
+    font-size: 25px;
+    margin-top: 35px;
+  }
+  body .container main ul li {
+    height: 50px;
+    width: 95%;
+    margin: auto;
+  }
+  body .container main ul .btn {
+    margin-top: 30px;
+    height: 55px;
+    transform: translateY(-5px);
+  }
 }/*# sourceMappingURL=style.css.map */

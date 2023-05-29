@@ -20,14 +20,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  // gap: 20px;
   height: 100vh;
   .container {
-    // border: 2px solid red;
-    // width: 300px;
-    // transform: scale(.8);
-    // background-color: $White;
-    // box-shadow: 0 0 5px;
     height: 100%;
     header {
       background-image: linear-gradient($light-blue-back, $dark-blue-back);
@@ -76,7 +70,6 @@ body {
         margin: auto;
         font-weight: 500;
         color: $light-blue-text;
-        letter-spacing: 0.5px;
         margin-top: 10px;
       }
     }
@@ -86,7 +79,6 @@ body {
         color: $dark-blue-text;
         font-weight: 800;
         font-size: 18px;
-        letter-spacing: 0.5px;
         margin-top: 20px;
       }
       ul {
@@ -101,14 +93,13 @@ body {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          height: 60px;
+          height: 58px;
           div {
             display: flex;
             align-items: center;
             gap: 15px;
             p {
               font-weight: 800;
-              letter-spacing: 0.5px;
             }
           }
           .ratio {
@@ -156,17 +147,70 @@ body {
           color: $White;
           font-size: 18px;
           font-weight: 800;
-          letter-spacing: 0.5px;
         }
       }
     }
   }
-  .th {
-    position: relative;
-    // right: 300px;
-    // right: -10px;
-    top: 18px;
-    opacity: .5;
-    // border: 2px solid red;
+}
+@media (min-width: 400px) {
+  body {
+    .container{
+      background-color: $White;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+      display: flex;
+      justify-content: space-between;
+      width: 720px;
+      height: 500px;
+      border-radius: 30px;
+      header{
+        border-radius: 30px;
+        width: 50%;
+        padding: 30px;
+        h3{
+          font-size: 25px;
+          margin-top: 5px;
+        }
+        .circle{
+          width: 200px;
+          height: 200px;
+          margin: 30px auto;
+          h1{
+            font-size: 75px;
+            transform: translateY(5px);
+            span{
+              font-size: 18px;
+              transform: translateY(-10px);
+            }
+          }
+        }
+        h4{
+          font-size: 2rem;
+        }
+        p{
+          width: 85%;
+          font-size: 18px;
+          transform: translateY(-5px);
+        }
+            }
+      main{
+        width: 50%;
+        h3{
+        font-size: 25px;
+        margin-top: 35px;
+        }
+        ul{
+          li{
+            height: 50px;
+            width: 95%;
+            margin: auto;
+          }
+          .btn{
+            margin-top: 30px;
+            height: 55px;
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
   }
 }
