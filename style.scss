@@ -147,6 +147,14 @@ body {
           color: $White;
           font-size: 18px;
           font-weight: 800;
+          z-index: 0;
+          position: relative;
+          transition: all 0.3s;
+          &:hover {
+            box-shadow: 30px 30px 50px 5px $light-blue-back inset,
+              70px 70px 50px 5px $dark-blue-back inset;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -154,57 +162,57 @@ body {
 }
 @media (min-width: 400px) {
   body {
-    .container{
+    .container {
       background-color: $White;
-      box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
       display: flex;
       justify-content: space-between;
       width: 720px;
       height: 500px;
       border-radius: 30px;
-      header{
+      header {
         border-radius: 30px;
         width: 50%;
         padding: 30px;
-        h3{
+        h3 {
           font-size: 25px;
           margin-top: 5px;
         }
-        .circle{
+        .circle {
           width: 200px;
           height: 200px;
           margin: 30px auto;
-          h1{
+          h1 {
             font-size: 75px;
             transform: translateY(5px);
-            span{
+            span {
               font-size: 18px;
               transform: translateY(-10px);
             }
           }
         }
-        h4{
+        h4 {
           font-size: 2rem;
         }
-        p{
+        p {
           width: 85%;
           font-size: 18px;
           transform: translateY(-5px);
         }
-            }
-      main{
+      }
+      main {
         width: 50%;
-        h3{
-        font-size: 25px;
-        margin-top: 35px;
+        h3 {
+          font-size: 25px;
+          margin-top: 35px;
         }
-        ul{
-          li{
+        ul {
+          li {
             height: 50px;
             width: 95%;
             margin: auto;
           }
-          .btn{
+          .btn {
             margin-top: 30px;
             height: 55px;
             transform: translateY(-5px);

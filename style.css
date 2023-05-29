@@ -137,6 +137,13 @@ body .container main ul button {
   color: hsl(0, 0%, 100%);
   font-size: 18px;
   font-weight: 800;
+  z-index: 0;
+  position: relative;
+  transition: all 0.3s;
+}
+body .container main ul button:hover {
+  box-shadow: 30px 30px 50px 5px hsl(252, 100%, 67%) inset, 70px 70px 50px 5px hsl(241, 81%, 54%) inset;
+  cursor: pointer;
 }
 
 @media (min-width: 400px) {
