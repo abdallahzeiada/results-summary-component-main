@@ -19,30 +19,33 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
   height: 100vh;
   .container {
-    height: 100%;
+    // border: 2px solid red;
     // width: 300px;
     // transform: scale(.8);
+    // background-color: $White;
+    // box-shadow: 0 0 5px;
+    height: 100%;
     header {
-      background-image: linear-gradient($light-blue-back,$dark-blue-back);
+      background-image: linear-gradient($light-blue-back, $dark-blue-back);
       text-align: center;
       color: $White;
-      padding: 20px 0;
       border-radius: 0 0 30px 30px;
+      padding: 30px 0;
       h3 {
         font-size: 18px;
         color: $light-blue-text;
         text-transform: capitalize;
         font-weight: 700;
-        margin-top: 10px;
       }
       .circle {
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        margin: 30px auto;
+        margin: 20px auto;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -66,36 +69,37 @@ body {
         text-transform: capitalize;
         font-size: 25px;
         font-weight: 700;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       p {
         width: 70%;
         margin: auto;
         font-weight: 500;
         color: $light-blue-text;
-        margin-bottom: 10px;
         letter-spacing: 0.5px;
       }
     }
     main {
-      padding: 0 20px;
-      margin-top: 10px;
+      padding: 0 30px;
       h3 {
         color: $dark-blue-text;
         font-weight: 800;
         font-size: 18px;
-        margin: 25px 0;
         letter-spacing: 0.5px;
+        margin: 20px 0;
       }
-      .content {
-        .box {
-          padding: 0 20px;
-          height: 57px;
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li {
+          padding: 0 10px;
           border-radius: 10px;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin-bottom: 15px;
+          height: 60px;
           div {
             display: flex;
             align-items: center;
@@ -107,7 +111,7 @@ body {
           }
           .ratio {
             color: $dark-blue-text;
-            font-weight: 800;
+            font-weight: 700;
             span {
               opacity: 0.5;
             }
@@ -137,31 +141,30 @@ body {
             color: $blue;
           }
         }
-      }
-    }
-    footer {
-    // border: 2px solid red;
-      padding: 10px 20px;
-      button {
-        all: unset;
-        width: 100%;
-        text-align: center;
-        background-color: $dark-blue-text;
-        height: 60px;
-        border-radius: 50px;
-        color: $White;
-        font-size: 18px;
-        font-weight: 800;
-        letter-spacing: 0.5px;
+        .btn {
+          padding: 0;
+        }
+        button {
+          all: unset;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          background-color: $dark-blue-text;
+          border-radius: 50px;
+          color: $White;
+          font-size: 18px;
+          font-weight: 800;
+          letter-spacing: 0.5px;
+        }
       }
     }
   }
-  .th{
+  .th {
     position: relative;
-    right: 300px;
+    // right: 300px;
     // right: -10px;
-    top: 18px;
+    // top: 18px;
     opacity: 0.7;
-    // border: 2px solid red;
+    border: 2px solid red;
   }
 }

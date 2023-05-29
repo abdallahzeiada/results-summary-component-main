@@ -8,7 +8,8 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
   height: 100vh;
 }
 body .container {
@@ -18,21 +19,20 @@ body .container header {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   text-align: center;
   color: hsl(0, 0%, 100%);
-  padding: 20px 0;
   border-radius: 0 0 30px 30px;
+  padding: 30px 0;
 }
 body .container header h3 {
   font-size: 18px;
   color: hsl(241, 100%, 89%);
   text-transform: capitalize;
   font-weight: 700;
-  margin-top: 10px;
 }
 body .container header .circle {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin: 30px auto;
+  margin: 20px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,85 +53,88 @@ body .container header h4 {
   text-transform: capitalize;
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 body .container header p {
   width: 70%;
   margin: auto;
   font-weight: 500;
   color: hsl(241, 100%, 89%);
-  margin-bottom: 10px;
   letter-spacing: 0.5px;
 }
 body .container main {
-  padding: 0 20px;
-  margin-top: 10px;
+  padding: 0 30px;
 }
 body .container main h3 {
   color: hsl(224, 30%, 27%);
   font-weight: 800;
   font-size: 18px;
-  margin: 25px 0;
   letter-spacing: 0.5px;
+  margin: 20px 0;
 }
-body .container main .content .box {
-  padding: 0 20px;
-  height: 57px;
+body .container main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .container main ul li {
+  padding: 0 10px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  height: 60px;
 }
-body .container main .content .box div {
+body .container main ul li div {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-body .container main .content .box div p {
+body .container main ul li div p {
   font-weight: 800;
   letter-spacing: 0.5px;
 }
-body .container main .content .box .ratio {
+body .container main ul li .ratio {
   color: hsl(224, 30%, 27%);
-  font-weight: 800;
+  font-weight: 700;
 }
-body .container main .content .box .ratio span {
+body .container main ul li .ratio span {
   opacity: 0.5;
 }
-body .container main .content .box1 {
+body .container main ul .box1 {
   background-color: rgba(255, 87, 87, 0.1);
 }
-body .container main .content .box1 p {
+body .container main ul .box1 p {
   color: hsl(0, 100%, 67%);
 }
-body .container main .content .box2 {
+body .container main ul .box2 {
   background-color: rgba(255, 176, 31, 0.1);
 }
-body .container main .content .box2 p {
+body .container main ul .box2 p {
   color: hsl(39, 100%, 56%);
 }
-body .container main .content .box3 {
+body .container main ul .box3 {
   background-color: rgba(0, 189, 145, 0.1);
 }
-body .container main .content .box3 p {
+body .container main ul .box3 p {
   color: hsl(166, 100%, 37%);
 }
-body .container main .content .box4 {
+body .container main ul .box4 {
   background-color: rgba(17, 37, 212, 0.1);
 }
-body .container main .content .box4 p {
+body .container main ul .box4 p {
   color: hsl(234, 85%, 45%);
 }
-body .container footer {
-  padding: 10px 20px;
+body .container main ul .btn {
+  padding: 0;
 }
-body .container footer button {
+body .container main ul button {
   all: unset;
   width: 100%;
+  height: 100%;
   text-align: center;
   background-color: hsl(224, 30%, 27%);
-  height: 60px;
   border-radius: 50px;
   color: hsl(0, 0%, 100%);
   font-size: 18px;
@@ -140,7 +143,6 @@ body .container footer button {
 }
 body .th {
   position: relative;
-  right: 300px;
-  top: 18px;
   opacity: 0.7;
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
